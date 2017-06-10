@@ -2,20 +2,18 @@
 <html lang="en">
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js"></script>
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
     <meta charset="UTF-8">
     <title>weiyuqin_2048</title>
 </head>
 <style>
     body{
         margin: 0;
+        overflow: hidden;
     }
 </style>
 <body>
-<script>
-var app = new PIXI.Application(800, 600, {backgroundColor: 0x00FFFF});
-document.body.appendChild(app.view);
-var basicText = new PIXI.Text('2048game');
-app.stage.addChild(basicText);
-</script>
+<script src = "./index.js"></script>
+
 </body>
 </html>
